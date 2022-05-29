@@ -1,0 +1,179 @@
+body { 
+    margin: 0;
+    font-size: 100%; 
+    font-weight: normal; 
+    width: 1920px;
+    font-family: 'Montserrat', Arial, sans-serif; 
+} 
+
+.header { 
+    background-color:white; 
+    width: 1920px;
+    box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    height: 80px;  
+} 
+
+.header__container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between; 
+    align-items: center;
+    height: 80px;  
+    width: 60%;
+}
+
+.header__phone{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #212121;
+}
+
+.header__logo {
+    width: 250px;
+    height: 65px;
+}
+
+.products {
+    height: 576px;
+    display: flex;
+    flex-direction: column;
+}
+
+.products__title {
+    width: 350px;
+    height: 49px;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 63px auto;
+}
+
+.container_place-products{
+    margin: 0 auto;
+  display: flex;  
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  height: 414px;
+}
+
+.container__card {
+    width: 200px;
+    height: 280px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.card__picture{
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.card__title {
+    width: 183px;
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 23px auto 10px auto;
+    color: #212121;
+    text-align: center;    
+}
+
+.card__text {
+    width: 196px;
+    height: 66px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+    color: #424242;
+    text-align: center;
+}
+
+.quote {
+    height: 283px;
+}
+
+.container_place-quote {
+    margin: 0 auto;
+    height: 283px;
+    width: 60%;
+    border-bottom: 1px solid #FFB5B5;
+    border-top: 1px solid #FFB5B5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote__text {
+    margin: 0 auto;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FF445A;
+    text-align: center;
+}
+
+.quote__author {
+    margin: 0 auto;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FF445A;
+    text-align: center;
+}
+
+.poem {
+    height: 441px;
+    margin: 0;
+}
+
+.container_place-poem {
+    margin: 0 auto;
+    height: 441px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.poem__text {
+    margin-top: 88px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #424242;
+    width: 555px;
+    height: 265px;
+    font-family: 'Montserrat', Arial, sans-serif; 
+}
+
+.poem__pic {
+    margin-top: 88px;
+    width: 244px;
+    height: 282px;
+    filter: drop-shadow(30px 40px 40px rgba(255, 181, 181, 0.5));
+}
+
+.footer__container{
+    height: 80px;
+    background-color: #FFB5B5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+}
