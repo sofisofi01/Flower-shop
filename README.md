@@ -9,4 +9,4 @@
 При создании данного проекта были использованы технологии HTML5, CSS3, JavaScript.
 
 **Ссылка на мой проект**
-https://sofisofi01.github.io/Flower-shop/new.html
+https://sofisofi01.github.io/Flower-shop/
